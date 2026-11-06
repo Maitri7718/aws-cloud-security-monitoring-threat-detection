@@ -1,0 +1,18 @@
+{
+  "eventVersion": "1.09",
+  "eventTime": "2026-11-03T05:00:00Z",
+  "eventSource": "iam.amazonaws.com",
+  "eventName": "DeleteLoginProfile",
+  "awsRegion": "eu-north-1",
+  "sourceIPAddress": "203.0.113.90",
+  "userAgent": "aws-cli/2.0",
+  "userIdentity": {
+    "type": "IAMUser",
+    "userName": "synthetic-admin-user",
+    "accountId": "123456789012"
+  },
+  "requestParameters": {
+    "userName": "synthetic-test-user"
+  },
+  "responseElements": null
+}

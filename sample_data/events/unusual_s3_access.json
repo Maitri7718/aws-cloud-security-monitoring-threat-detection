@@ -1,0 +1,19 @@
+{
+  "eventVersion": "1.09",
+  "eventTime": "2026-11-03T05:10:00Z",
+  "eventSource": "s3.amazonaws.com",
+  "eventName": "GetObject",
+  "awsRegion": "eu-north-1",
+  "sourceIPAddress": "198.51.100.75",
+  "userAgent": "aws-cli/2.0",
+  "userIdentity": {
+    "type": "IAMUser",
+    "userName": "synthetic-test-user",
+    "accountId": "123456789012"
+  },
+  "requestParameters": {
+    "bucketName": "synthetic-company-data",
+    "key": "confidential/report.txt"
+  },
+  "responseElements": null
+}

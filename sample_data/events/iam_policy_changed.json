@@ -1,0 +1,19 @@
+{
+  "eventVersion": "1.09",
+  "eventTime": "2026-11-03T04:45:00Z",
+  "eventSource": "iam.amazonaws.com",
+  "eventName": "PutUserPolicy",
+  "awsRegion": "eu-north-1",
+  "sourceIPAddress": "192.0.2.60",
+  "userAgent": "aws-cli/2.0",
+  "userIdentity": {
+    "type": "IAMUser",
+    "userName": "synthetic-admin-user",
+    "accountId": "123456789012"
+  },
+  "requestParameters": {
+    "userName": "synthetic-test-user",
+    "policyName": "TemporaryAccessPolicy"
+  },
+  "responseElements": null
+}
